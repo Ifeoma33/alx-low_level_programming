@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main - Entry point
-  *Description: "get the last digit of a number"
-  *return: always 0
-  */
+ * main - Entry point
+ * Description: "get the last digit of a number"
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {

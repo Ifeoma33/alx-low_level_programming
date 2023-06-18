@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-  *main - Entry point
-  *description : 'prints alphabets in lowercase excluding q and e'
-  *return : always 0
-  */
-
+ * main - Entry point
+ *
+ * Description: "prints alphabets in lowercase excluding q and e"
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n = 97;
