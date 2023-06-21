@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 /**
  * _islower - Entry point
  * Description: print function that checks lowercase character
@@ -7,7 +7,7 @@
  */
 int _islower(int c)
 {
-	if (c >= 'a'; &&c <= 'z')
+	if (c >= 'a' &&c <= 'z')
 	{
 		return (1);
 	}
