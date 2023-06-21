@@ -1,18 +1,15 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: "returns no value"
- * Return: Always 0 (Success)
+ * print_alphabet - A program that prints all the english alphabet from a-z.
+ * Return: 0.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	int n;
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar('n');
-		}
-		_putchar('\n');
+		_putchar(alphabet);
 	}
-	return (0);
+	_putchar('\n');
 }
