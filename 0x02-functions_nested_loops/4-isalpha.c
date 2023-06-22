@@ -7,13 +7,15 @@
  */
 int _isalpha(int c)
 {
-	if (c >= 'Aa' && c <= 'Zz')
+	if (c >= 'A' && c <= 'Z')
 	{
+		else if (c >= 'a' && c <= 'z')
+		{
+			return (1);
+		}
+		else
+		{
 		return (0);
-	}
-	else
-	{
-		return (0);
-	}
+		}
 	_putchar('\n');
 }
