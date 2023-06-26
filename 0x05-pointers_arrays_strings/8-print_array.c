@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - Prints n elements of arrays of integers
  *@a: Elements of an array
